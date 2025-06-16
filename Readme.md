@@ -2,7 +2,8 @@
 
 A responsive recipe blog website focused on healthy eating, built with Bootstrap 5.
 
-![Healthy Bites Screenshot](https://via.placeholder.com/800x500.png?text=Healthy+Bites+Blog+Screenshot)
+![Healthy-Bites-Blog-Nutritious-Recipes-Wellness-Tips-06-17-2025_04_22_AM](https://github.com/user-attachments/assets/096c7507-bf86-495e-a34d-972ffe03cf51)
+
 
 ## ✨ Features
 
