@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Healthy Breakfast Recipes - Start your day right with nutritious morning meals"
+    />
+    <title>Healthy Breakfast Recipes | Healthy Bites</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="sticky-top bg-white shadow-sm">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <i class="fas fa-leaf text-success me-2 fs-3"></i>
+            <span class="fs-3 fw-bold text-success">Healthy Bites</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  id="recipesDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Recipes
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item active" href="breakfast.html"
+                      >Breakfast</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="lunch.html">Lunch</a></li>
+                  <li>
+                    <a class="dropdown-item" href="dinner.html">Dinner</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="snacks.html">Snacks</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="nutritionDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Nutrition
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Healthy Eating</a></li>
+                  <li><a class="dropdown-item" href="#">Superfoods</a></li>
+                  <li><a class="dropdown-item" href="#">Meal Planning</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Wellness</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                <a class="btn btn-success" href="#">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <h1 class="display-4 fw-bold mb-4">Healthy Breakfast Recipes</h1>
+            <p class="lead mb-4">
+              Start your day right with these nutritious and delicious breakfast
+              ideas that will energize your morning.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recipe Grid -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card recipe-card h-100">
+              <div class="position-relative">
+                <img
+                  src="https://images.unsplash.com/photo-1546069901-d5bfd2cbfb1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+                  class="card-img-top"
+                  alt="Avocado Toast"
+                />
+                <span class="recipe-time"
+                  ><i class="far fa-clock me-1"></i> 10 min</span
+                >
+              </div>
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-2"
+                >
+                  <span class="badge bg-success bg-opacity-10 text-success"
+                    >Vegetarian</span
+                  >
+                  <div class="d-flex align-items-center">
+                    <i class="fas fa-star text-warning me-1"></i>
+                    <span>4.9</span>
+                  </div>
+                </div>
+                <h5 class="card-title">Avocado Toast with Poached Eggs</h5>
+                <p class="card-text text-muted">
+                  Creamy avocado on whole grain toast topped with perfectly
+                  poached eggs and chili flakes.
+                </p>
+              </div>
+              <div
+                class="card-footer bg-white border-0 d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/32.jpg"
+                    class="author-img me-2"
+                    alt="Author"
+                  />
+                  <span>By Sarah</span>
+                </div>
+                <a href="#" class="btn btn-sm btn-success">View Recipe</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card recipe-card h-100">
+              <div class="position-relative">
+                <img
+                  src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+                  class="card-img-top"
+                  alt="French Toast"
+                />
+                <span class="recipe-time"
+                  ><i class="far fa-clock me-1"></i> 15 min</span
+                >
+              </div>
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-2"
+                >
+                  <span class="badge bg-success bg-opacity-10 text-success"
+                    >Vegetarian</span
+                  >
+                  <div class="d-flex align-items-center">
+                    <i class="fas fa-star text-warning me-1"></i>
+                    <span>4.7</span>
+                  </div>
+                </div>
+                <h5 class="card-title">Whole Grain French Toast</h5>
+                <p class="card-text text-muted">
+                  Healthy twist on classic French toast made with whole grain
+                  bread and topped with fresh berries.
+                </p>
+              </div>
+              <div
+                class="card-footer bg-white border-0 d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/22.jpg"
+                    class="author-img me-2"
+                    alt="Author"
+                  />
+                  <span>By James</span>
+                </div>
+                <a href="#" class="btn btn-sm btn-success">View Recipe</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card recipe-card h-100">
+              <div class="position-relative">
+                <img
+                  src="https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"
+                  class="card-img-top"
+                  alt="Smoothie Bowl"
+                />
+                <span class="recipe-time"
+                  ><i class="far fa-clock me-1"></i> 5 min</span
+                >
+              </div>
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-2"
+                >
+                  <span class="badge bg-success bg-opacity-10 text-success"
+                    >Vegan</span
+                  >
+                  <div class="d-flex align-items-center">
+                    <i class="fas fa-star text-warning me-1"></i>
+                    <span>4.8</span>
+                  </div>
+                </div>
+                <h5 class="card-title">Berry Banana Smoothie Bowl</h5>
+                <p class="card-text text-muted">
+                  Thick and creamy smoothie bowl packed with antioxidants,
+                  topped with granola and fresh fruit.
+                </p>
+              </div>
+              <div
+                class="card-footer bg-white border-0 d-flex justify-content-between align-items-center"
+              >
+                <div class="d-flex align-items-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/45.jpg"
+                    class="author-img me-2"
+                    alt="Author"
+                  />
+                  <span>By Maria</span>
+                </div>
+                <a href="#" class="btn btn-sm btn-success">View Recipe</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <a
+              class="d-flex align-items-center mb-3 text-decoration-none"
+              href="index.html"
+            >
+              <i class="fas fa-leaf text-success me-2 fs-3"></i>
+              <span class="fs-3 fw-bold text-success">Healthy Bites</span>
+            </a>
+            <p class="text-muted">
+              Helping you live healthier through delicious food and practical
+              nutrition advice since 2020.
+            </p>
+            <div class="mt-4">
+              <a href="#" class="social-icon"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-pinterest-p"></i
+              ></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h5 class="fw-bold mb-3">Recipes</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="breakfast.html" class="text-decoration-none text-muted"
+                  >Breakfast</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="lunch.html" class="text-decoration-none text-muted"
+                  >Lunch</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="dinner.html" class="text-decoration-none text-muted"
+                  >Dinner</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="snacks.html" class="text-decoration-none text-muted"
+                  >Snacks</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h5 class="fw-bold mb-3">Nutrition</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Healthy Eating</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Weight Loss</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Meal Planning</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h5 class="fw-bold mb-3">About</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Our Story</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Meet the Team</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none text-muted">Careers</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h5 class="fw-bold mb-3">Legal</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Terms of Use</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Cookie Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="text-muted mb-0">
+              &copy; 2025 Healthy Bites Blog. All rights reserved.
+            </p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <p class="text-muted mb-0">
+              Made with <i class="fas fa-heart text-danger"></i> for healthy
+              living
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
